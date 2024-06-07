@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 sealed class Router{
 
     @Serializable
-    object ScreenA
+    data object ScreenA
 
     @Serializable
     data class ScreenB(
